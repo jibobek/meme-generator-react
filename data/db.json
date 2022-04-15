@@ -1,0 +1,40 @@
+{
+    "memes": [
+        {
+            "id": 1,
+            "name": "sample 1",
+            "texts": [
+                "It's not a bug",
+                "It's feature"
+            ],
+            "type": "ugandanknuck"
+        },
+        {
+            "name": "sample 2",
+            "texts": [
+                "Dependencies",
+                "Dependencies everywhere"
+            ],
+            "type": "buzz",
+            "id": 4
+        },
+        {
+            "name": "sample 3",
+            "texts": [
+                "React or Angular",
+                "Why not both?"
+            ],
+            "type": "both",
+            "id": 5
+        },
+        {
+            "name": "sample 4",
+            "texts": [
+                "Commit node__modules",
+                "Commit to master"
+            ],
+            "type": "ds",
+            "id": 6
+        }
+    ]
+}
