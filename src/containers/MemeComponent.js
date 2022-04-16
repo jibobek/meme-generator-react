@@ -5,6 +5,9 @@ import { API_MEME_URL } from "../constants";
 
 const MemeComponent = () => {
   const memes = useSelector((state) => state.allMemes.memes);
+  if(!memes){
+    return;
+  }
   const renderList = memes.map((meme) => {
     const { id, name, texts, type } = meme;
     const textUrl = texts.join('/');
